@@ -59,7 +59,8 @@ dotnet run --project ControlePresenca/ControlePresenca.csproj
 ```
 - Link Swagger  **http://localhost:5283/swagger/index.html**
 
-| Camada | Responsabilidade 
+| Camada | Responsabilidade |
+|-----------|------------|
 | **Dominio** | Entidades ricas, enums |
 | **Aplicacao** | Casos de uso, interfaces, DTOs | 
 | **InfraEstrutura** | EF Core, repositórios, Supabase Storage | 
