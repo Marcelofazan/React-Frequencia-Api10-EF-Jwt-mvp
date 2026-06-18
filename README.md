@@ -101,6 +101,7 @@ App.tsx
   │   └─ EditarRegistroDialog.tsx → useAtualizarRegistro()
   └─ UploadSheet.tsx
       └─ useCriarRegistro() → mutation (FormData multipart)
+```
 
 - Separação de responsabilidades.
 
@@ -124,7 +125,3 @@ npm run dev
 ```
 
 O app estará disponível em **http://localhost:5173**.
-
-
-```
-
