@@ -5,8 +5,6 @@ Aplicativo de controle de presença em React e C# ASP.NET 10 com banco de dados 
 #### 🎨 Aqui está uma demonstração do projeto
 <img width="800" height="350" alt="Controle_Presenca" src="https://github.com/user-attachments/assets/13a7a3db-e3dc-412f-bb52-01bc602aaa70" />
 
-<img width="282" height="462" alt="Controle_Presenca_Resp" src="https://github.com/user-attachments/assets/a4978b34-1722-4499-8993-5e957775083f" />
-
 #### 📁 Requisitos do Projeto
 
 - Supabase — configuração inicial
