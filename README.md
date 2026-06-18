@@ -43,6 +43,7 @@ WITH CHECK (bucket_id = 'comprovantes');
 | Tecnologia | Descrição |
 |-----------|------------|
 | **CQRS** | É um padrão arquitetural que separa as operações de escrita (comandos) das operações de leitura (consultas) |
+| **CORS** | Mecanismo de segurança implementado no navegador e não uma responsabilidade do frontend ou backend |
 | **Fluent Validation** | Biblioteca para regras de validação de forma simples, legível e desacoplada|
 | **JWT** | É um crachá digital usado para identificar usuários e trocar informações de forma segura entre computadores |
 | **Mediatr** | Desacoplar classes, permitindo que diferentes componentes de um sistema se comuniquem através de um ponto central (o mediador)|
