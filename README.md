@@ -62,10 +62,22 @@ dotnet run --project ControlePresenca/ControlePresenca.csproj
 | Camada | Responsabilidade |
 |-----------|------------|
 | **Dominio** | Entidades ricas, enums |
-| **Aplicacao** | Casos de uso, interfaces, DTOs | 
+| **Aplicacao** | Casos de uso, interfaces, DTO | 
 | **InfraEstrutura** | EF Core, repositórios, Supabase Storage | 
-| **API** | Controllers, middleware, DI, Program.cs | 
+| **API** | Controllers, middleware, DI | 
 
+### Fluxo de uma requisição
+
+```
+HTTP Request
+  └─► RegistrosController          (API)
+        └─► MediatR.Send(Command)
+              └─► ValidationBehavior (FluentValidation)
+                    └─► CommandHandler             (Application)
+                          ├─► IStorageService       → Supabase Storage
+                          └─► IRegistroRepository   → PostgreSQL
+                                └─► AppDbContext    (Infrastructure/EF Core)
+```
 ## 📁 Frontend 
 
 #### 📋 O que voçê vai ver nesse Projeto
