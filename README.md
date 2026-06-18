@@ -1,6 +1,8 @@
 ## 🌐 React-Api10-EF-Jwt-Supabase-mvp
 Aplicativo de controle de presença em React e C# ASP.NET 10 com banco de dados Supabase.
 
+<img width="800" height="350" alt="Controle_Presenca" src="https://github.com/user-attachments/assets/13a7a3db-e3dc-412f-bb52-01bc602aaa70" />
+
 #### 📁 Requisitos do Projeto
 
 - Supabase — configuração inicial
