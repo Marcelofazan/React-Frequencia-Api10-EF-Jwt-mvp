@@ -93,10 +93,10 @@ Separação de responsabilidades.
 
 | Tecnologia | Descrição |
 |-----------|------------|
-| **components** | JSX puro, só renderiza |
-| **hooks** | toda a lógica (queries, mutations, estado) |
-| **services** | configuração do axios |
-| **types** | contratos TypeScript |
+| **Components** | JSX puro, só renderiza |
+| **Hooks** | toda a lógica (queries, mutations, estado) |
+| **Services** | configuração do axios |
+| **Types** | contratos TypeScript |
 
 
 #### 🔄 Executar a aplicação
