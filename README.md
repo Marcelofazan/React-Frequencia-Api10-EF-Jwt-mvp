@@ -101,10 +101,11 @@ Separação de responsabilidades.
 
 #### 🔄 Executar a aplicação
 
+- Recuperar as dependencias do projeto node_modules .
 ```bash
 npm install
 ```
-
+- Executar o Build do Projeto
 ```bash
 npm run dev
 ```
