@@ -88,6 +88,16 @@ HTTP Request
 | **TanStack** | Biblioteca de gerenciamento de estado de servidor para aplicações web. |
 | **Zod** | Biblioteca popular de validação e declaração de esquemas (schema) que executa regras exatas para o formato dos dados e os valide em tempo de execução |
 
+Separação de responsabilidades.
+
+| Tecnologia | Descrição |
+|-----------|------------|
+| **components** | JSX puro, só renderiza |
+| **hooks** | toda a lógica (queries, mutations, estado) |
+| **services** | configuração do axios |
+| **types** | contratos TypeScript |
+
+
 #### 🔄 Executar a aplicação
 
 ```bash
@@ -98,17 +108,7 @@ npm install
 npm run dev
 ```
 
-O app estará disponível em `http://localhost:5173`.
-
-
-- Separação de responsabilidades
-
-| Tecnologia | Descrição |
-|-----------|------------|
-| **components** | JSX puro, só renderiza |
-| **hooks** | toda a lógica (queries, mutations, estado) |
-| **services** | configuração do axios |
-| **types** | contratos TypeScript |
+O app estará disponível em **http://localhost:5173**.
 
 #### Fluxo de dados
 ```
