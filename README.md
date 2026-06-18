@@ -1,8 +1,16 @@
 ## 🌐 React-Api10-EF-Jwt-Supabase-mvp
 Aplicativode controle de presença em React e C# ASP.NET 10 com banco de dados Supabase.
 
-📋 O que voçê vai ver nesse Projeto
+#### 📋 O que voçê vai ver nesse Projeto
 
+| Tecnologia | Descrição |
+|-----------|------------|
+| **CQRS** | É um padrão arquitetural que separa as operações de escrita (comandos) das operações de leitura (consultas) |
+| **Fluent Validation** | Biblioteca para regras de validação de forma simples, legível e desacoplada|
+| **JWT** | É um crachá digital usado para identificar usuários e trocar informações de forma segura entre computadores |
+| **Mediatr** | Desacoplar classes, permitindo que diferentes componentes de um sistema se comuniquem através de um ponto central (o mediador)|
+| **Supabase** | Wrapper (capa facilitadora) para simplificar o desenvolvimento com o banco de dados PostgreSQL  |
+| **Storage Supabase** | Gerenciamento e armazenamento de arquivos de qualquer tipo como imagens, vídeos, PDFs e documentos. |
 
 #### 📁 Requisitos do Projeto
 
