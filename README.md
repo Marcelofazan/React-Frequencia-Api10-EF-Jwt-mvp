@@ -30,7 +30,7 @@ dotnet ef migrations add BancoInicial --project InfraEstrutura --startup-project
 dotnet ef database update --project InfraEstrutura --startup-project ControlePresenca
 dotnet run --project ControlePresenca/ControlePresenca.csproj
 ```
-- Link Swagger  **http://localhost:5283/swagger/index.html**
+A API ficará disponivel em  **http://localhost:5283/swagger/index.html**
 
 #### ⚙️ Configuração - Supabase 
 
