@@ -69,8 +69,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateAudience = true,
             ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
-            ValidIssuer = builder.Configuration["Jwt:Issuer"] ?? "ControlePresenca",
-            ValidAudience = builder.Configuration["Jwt:Audience"] ?? "ControlePresenca",
+            ValidIssuer = builder.Configuration["Jwt:Issuer"] ?? "ControlePresencaApi",
+            ValidAudience = builder.Configuration["Jwt:Audience"] ?? "ControlePresencaApp",
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey))
         };
     });
